@@ -1,0 +1,81 @@
+/* App */
+.App {
+    display: flex;
+    flex-direction: column;
+
+    h1,
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    h1 {
+        color: rgb(54, 53, 53);
+    }
+
+    h2 {
+        color: rgb(17, 17, 17);
+    }
+
+    form {
+        border: 1px solid rgb(90, 5, 23);
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        align-self: center;
+        padding: 20px;
+        border-radius: 10px;
+
+        input {
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 1px solid black;
+            font-size: 20px;
+        }
+
+        button {
+            padding: 15px;
+            background-color: rgb(19, 189, 189);
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+        }
+
+        span {
+            color: red;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        &.error {
+            border-color: red;
+
+            input {
+                border: 1px solid red;
+            }
+
+            button {
+                background-color: rgb(9, 67, 121);
+                color: rgb(119, 119, 119);
+            }
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+        input::placeholder {
+            color: #999;            
+            font-size: 12px;
+            
+        }
+}

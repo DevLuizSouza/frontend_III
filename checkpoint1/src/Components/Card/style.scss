@@ -1,0 +1,26 @@
+/* cardComponent */
+.cardComponent {
+    position: relative;
+    border: 2px solid rgb(241, 10, 10);
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+
+    p {
+        text-align: center;
+        align-self: center;
+        font-size: 18px;
+    }
+
+    span {
+        position: absolute;
+        text-align: center;
+        align-self: end;
+        bottom: 25px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
