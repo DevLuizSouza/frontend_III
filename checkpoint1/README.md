@@ -6,8 +6,6 @@ Este projeto é o resultado do primeiro entregável do curso de Front End III, o
 ## 🎨 Layout
 O layout do projeto foi baseado no template fornecido pelo professor, que pode ser acessado [aqui](link_do_template_do_figma).
 
-![Layout do Projeto](link_da_imagem_do_layout)
-
 ## 🛠️ Tecnologias Utilizadas
 - React
 - HTML
