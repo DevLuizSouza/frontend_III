@@ -46,22 +46,37 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Adicionar nova cor</h1>
+      
       <form onSubmit={event => addColor(event)} className={error ? 'error' : null}>
-        <label htmlFor="colorName">Nome da cor</label>
-        <input id="colorName" type="text" placeholder="Digite o nome da cor." value={colorName} onChange={event => setColorName(event.target.value)} />
-        <label htmlFor="colorHex">Cor</label>
-        <input id="colorHex" type="text" placeholder="Digite a cor com formato hexadecimal (#ffffff)" value={colorHex} onChange={event => setColorHex(event.target.value)} />
-        <button type='submit'>Salvar</button>
-        {
-          error ? <span>Eita, verifique os dados inseridos no formulário</span> : null
-        }
+        <h1>Adicionar nova cor</h1>
+        <div className="inputRow">
+          <div className="inputContainer">
+            <label htmlFor="colorName">Nome da cor</label>
+            <input
+              id="colorName"
+              type="text"
+              placeholder="Digite o nome da cor."
+              value={colorName}
+              onChange={event => setColorName(event.target.value)}
+            />
+          </div>
+          <div className="inputContainer">
+            <label htmlFor="colorHex">Cor</label>
+            <input
+              id="colorHex"
+              type="text"
+              placeholder="Digite a cor com formato hexadecimal (#ffffff)"
+              value={colorHex}
+              onChange={event => setColorHex(event.target.value)}
+            />
+          </div>
+        </div>
+        <button type="submit">Salvar</button>
+        {error ? <span>Eita, verifique os dados inseridos no formulário</span> : null}
       </form>
       <h2>Cores Favoritas</h2>
-      <div>
-        {
-          favoriteColors.map((colorItem, index) => (<Card color={colorItem} key={index} />))
-        }
+      <div className="favoriteColors">
+        {favoriteColors.map((colorItem, index) => (<Card color={colorItem} key={index} />))}
       </div>
     </div>
   )

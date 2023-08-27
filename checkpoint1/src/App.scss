@@ -1,48 +1,82 @@
 /* App */
 .App {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap');
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 
     h1,
     h2 {
-        text-align: center;
-        font-size: 30px;
-        font-weight: 500;
-        font-family: 'Roboto', sans-serif;
+        color: #FFF;
+            font-family: Poppins;
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
     }
+    
 
-    h1 {
-        color: rgb(54, 53, 53);
-    }
-
-    h2 {
-        color: rgb(17, 17, 17);
-    }
-
+   
     form {
-        border: 1px solid rgb(90, 5, 23);
         display: flex;
         flex-direction: column;
-        width: 600px;
-        align-self: center;
-        padding: 20px;
+        align-items: flex-start;
+        width: 75rem;
+        margin-top: 2rem;
         border-radius: 10px;
+        background-color: #202020;
+        padding: 2rem;
 
-        input {
-            margin-bottom: 10px;
-            border: none;
-            border-bottom: 1px solid black;
-            font-size: 20px;
+        .inputRow {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 1rem;
+
+            .inputContainer {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    width: 34.875rem;
+                    color: rgba(255, 255, 255, 0.60);
+                        font-family: Poppins;
+                        font-size: 1.7rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                }
+
+                input {
+                    width: 34.875rem;                    
+                    height: 3rem;
+                    border-radius: 0.75rem;
+                    background: #353535;
+                    border: none;
+                    padding: 0.5rem;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
         }
 
         button {
-            padding: 15px;
-            background-color: rgb(19, 189, 189);
+            align-self: flex-end;
+            width: 14.4375rem;
+            height: 3.5625rem;
+            border-radius: 0.75rem;
+            background: #36CE7C;
             border: none;
-            border-radius: 10px;
-            font-weight: bold;
-            font-size: 20px;
-            color: white;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 1rem;
+            &:hover{
+            background-color: #2FAE63;
+            transition: background-color 0.3s ease;
+            }
+            
         }
 
         span {
@@ -56,26 +90,19 @@
         &.error {
             border-color: red;
 
-            input {
+            .inputContainer input {
                 border: 1px solid red;
             }
-
-            button {
-                background-color: rgb(9, 67, 121);
-                color: rgb(119, 119, 119);
-            }
         }
     }
 
-    div {
+    .favoriteColors {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
-    }
+        justify-content: center;
 
-        input::placeholder {
-            color: #999;            
-            font-size: 12px;
-            
+        .Card {
+            margin: 0.5rem;
         }
+    }
 }

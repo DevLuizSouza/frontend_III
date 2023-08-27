@@ -1,10 +1,11 @@
 /* cardComponent */
 .cardComponent {
     position: relative;
-    border: 2px solid rgb(241, 10, 10);
-    border-radius: 10px;
-    width: 400px;
-    height: 200px;
+    background-color: #202020;
+    border: 2px solid rgb(196, 232, 238);
+    border-radius: 0.75rem;
+    width: 36.875rem;
+    height: 16.125rem;
     display: flex;
     justify-content: center;
     margin: 15px;
