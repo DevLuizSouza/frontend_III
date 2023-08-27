@@ -4,7 +4,7 @@
 Este projeto é o resultado do primeiro entregável do curso de Front End III, onde aplicamos os conhecimentos adquiridos sobre criação e gestão de formulários utilizando o React. O objetivo é criar um formulário interativo que permita aos usuários inserir dados, realizar validações e exibir os dados em um formato de cartão.
 
 ## 🎨 Layout
-O layout do projeto foi baseado no template fornecido pelo professor, que pode ser acessado [aqui]([link_do_template_do_figma](https://www.figma.com/file/j3Awfr71PeNZrQ8tLybmBP/Checkpoint-1---Front-3?type=design&node-id=0%3A1&mode=design&t=2tKhglFoOLl5ggRM-1)).
+O layout do projeto foi baseado no template fornecido pelo professor, que pode ser acessado [aqui](https://www.figma.com/file/j3Awfr71PeNZrQ8tLybmBP/Checkpoint-1---Front-3?type=design&node-id=0%3A1&mode=design&t=2tKhglFoOLl5ggRM-1)
 
 ## 🛠️ Tecnologias Utilizadas
 - React
