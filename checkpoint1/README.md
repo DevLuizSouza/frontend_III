@@ -25,7 +25,7 @@ O layout do projeto foi baseado no template fornecido pelo professor, que pode s
 Este projeto está licenciado sob a [Licença MIT](link_da_licenca).
 
 ## 📬 Contato
-- Email: seuemail@example.com
-- GitHub: [seu-usuario](https://github.com/DevLuizSouza)
-- LinkedIn: [seu-nome](https://www.linkedin.com/in/luizdesouza88)
+- Email: inboxluizsouza@gmail.com
+- GitHub: [DevLuizSouza](https://github.com/DevLuizSouza)
+- LinkedIn: [Luiz deSouza](https://www.linkedin.com/in/luizdesouza88)
 
