@@ -1,27 +1,27 @@
 /* cardComponent */
 .cardComponent {
-    position: relative;
-    background-color: #202020;
-    border: 2px solid rgb(196, 232, 238);
-    border-radius: 0.75rem;
-    width: 36.875rem;
-    height: 16.125rem;
-    display: flex;
-    justify-content: center;
-    margin: 15px;
+  position: relative;
+  background-color: #202020;
+  border: 0.125rem solid rgb(196, 232, 238);
+  border-radius: 0.75rem;
+  width: 23.4375rem;
+  height: 10.125rem;
+  display: flex;
+  justify-content: center;
+  margin: 1.875rem;
 
-    p {
-        text-align: center;
-        align-self: center;
-        font-size: 18px;
-    }
+  p {
+    text-align: center;
+    align-self: center;
+    font-size: 1.125rem;
+  }
 
-    span {
-        position: absolute;
-        text-align: center;
-        align-self: end;
-        bottom: 25px;
-        font-size: 24px;
-        font-weight: bold;
-    }
+  span {
+    position: absolute;
+    text-align: center;
+    align-self: end;
+    bottom: 1.5625rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 }
