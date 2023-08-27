@@ -19,17 +19,13 @@ O layout do projeto foi baseado no template fornecido pelo professor, que pode s
 - Renderização dos dados em um componente de cartão.
 - Lista de elementos representada pelo componente CardList para exibir múltiplos cartões.
 
-## 🚀 Como Executar
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
-2. Acesse a pasta do projeto: `cd nome-do-projeto`
-3. Instale as dependências: `npm install`
-4. Inicie a aplicação: `npm start`
+
 
 ## 📄 Licença
 Este projeto está licenciado sob a [Licença MIT](link_da_licenca).
 
 ## 📬 Contato
 - Email: seuemail@example.com
-- GitHub: [seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [seu-nome](https://www.linkedin.com/in/seu-nome/)
+- GitHub: [seu-usuario](https://github.com/DevLuizSouza)
+- LinkedIn: [seu-nome](https://www.linkedin.com/in/luizdesouza88)
 
