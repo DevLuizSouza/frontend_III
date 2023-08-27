@@ -1,8 +1,37 @@
-# React + Vite
+# Projeto de Formulário Interativo com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descrição do Projeto
+Este projeto é o resultado do primeiro entregável do curso de Front End III, onde aplicamos os conhecimentos adquiridos sobre criação e gestão de formulários utilizando o React. O objetivo é criar um formulário interativo que permita aos usuários inserir dados, realizar validações e exibir os dados em um formato de cartão.
 
-Currently, two official plugins are available:
+## 🎨 Layout
+O layout do projeto foi baseado no template fornecido pelo professor, que pode ser acessado [aqui](link_do_template_do_figma).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Layout do Projeto](link_da_imagem_do_layout)
+
+## 🛠️ Tecnologias Utilizadas
+- React
+- HTML
+- CSS
+
+## ⚙️ Funcionalidades
+- Dois inputs de texto para inserção de dados.
+- Botão de "Enviar" para submeter os dados do formulário.
+- Validações para garantir o tamanho mínimo dos textos inseridos.
+- Exibição de mensagem de erro caso as validações não sejam atendidas.
+- Renderização dos dados em um componente de cartão.
+- Lista de elementos representada pelo componente CardList para exibir múltiplos cartões.
+
+## 🚀 Como Executar
+1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
+2. Acesse a pasta do projeto: `cd nome-do-projeto`
+3. Instale as dependências: `npm install`
+4. Inicie a aplicação: `npm start`
+
+## 📄 Licença
+Este projeto está licenciado sob a [Licença MIT](link_da_licenca).
+
+## 📬 Contato
+- Email: seuemail@example.com
+- GitHub: [seu-usuario](https://github.com/seu-usuario)
+- LinkedIn: [seu-nome](https://www.linkedin.com/in/seu-nome/)
+
